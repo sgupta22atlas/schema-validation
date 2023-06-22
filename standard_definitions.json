@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gist.githubusercontent.com/sgupta22atlas/21b6c6097edcd82c3814d465e932897a/raw/475bfcbeb8deca1672199b159a3143c5b78e9d68/standard_formats.json",
+  "title": "Common Validation Schema",
+  "description": "This schema contain generic validation patterns",
+  "type": "object",
+  "definitions": {
+    "uuid": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    }
+  }
+}
